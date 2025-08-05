@@ -78,7 +78,7 @@ export function SliderForm({ onAddSlider }: SliderFormProps) {
         <input
           type="text"
           className="w-full p-3 border-2 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-          placeholder="Örn: Harika Ürünümüz, Hizmetlerimiz, Hakkımızda..."
+          placeholder="Slider başlığını buraya girebilirsiniz"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           maxLength={100}
